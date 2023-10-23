@@ -1,1 +1,1 @@
-This is an implementation of solving systems of linear equations in Python (without using third-party libraries) all methods are implemented manually. Please note that I have not yet had time to conduct a sufficient amount of testing, so errors may occur.
+This is an implementation of solving systems of linear equations Gaussian method in Python (without using third-party libraries) all methods are implemented manually. Please note that I have not yet had time to conduct a sufficient amount of testing, so errors may occur.
