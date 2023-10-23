@@ -20,7 +20,7 @@ def solution (syst:str)->tuple:
     elif multiplier_matrix[0][1]*y<0:
         x=multiplier_matrix[0][2]+(+multiplier_matrix[0][1]*y)
     return (x,y)
-print(solution ('4x + y = 3 9x + 5y = 15'))
+
 
 
         
