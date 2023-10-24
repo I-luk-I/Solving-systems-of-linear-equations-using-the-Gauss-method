@@ -3,7 +3,8 @@ def solution (syst:str)->tuple:
     multiplier_matrix=multipliers.matrix_init(syst)
     x=0
     y=0
-    
+    if det==0:
+        return('The matrix of this system is singular')
     if multiplier_matrix[0][0]!=1:
         divider=multiplier_matrix[0][0]
         for i in range (len(multiplier_matrix[0])):
@@ -19,7 +20,7 @@ def solution (syst:str)->tuple:
         x=multiplier_matrix[0][2]-(multiplier_matrix[0][1]*y)
     elif multiplier_matrix[0][1]*y<0:
         x=multiplier_matrix[0][2]+(+multiplier_matrix[0][1]*y)
-    return (x,y)
+    return (f'x= {x}, y= {y}, determinant={det}')
 
 
 
