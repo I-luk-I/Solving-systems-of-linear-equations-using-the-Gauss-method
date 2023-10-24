@@ -1,6 +1,8 @@
 import multipliers
+import determinant
 def solution (syst:str)->tuple:
     multiplier_matrix=multipliers.matrix_init(syst)
+    det=determinant.matrix_determinant(multipliers.matrix_init(syst))
     x=0
     y=0
     if det==0:
