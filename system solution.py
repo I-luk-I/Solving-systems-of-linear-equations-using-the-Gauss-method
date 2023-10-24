@@ -21,7 +21,7 @@ def solution (syst:str)->str:
     if multiplier_matrix[0][1]*y>0:
         x=multiplier_matrix[0][2]-(multiplier_matrix[0][1]*y)
     elif multiplier_matrix[0][1]*y<0:
-        x=multiplier_matrix[0][2]+(+multiplier_matrix[0][1]*y)
+        x=multiplier_matrix[0][2]+(-multiplier_matrix[0][1]*y)
     return (f'x= {x}, y= {y}, determinant={det}')
 
 
