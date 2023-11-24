@@ -1,6 +1,6 @@
 import multipliers
 import determinant
-def solution (syst:str)->str:
+def solution (syst):
     multiplier_matrix=multipliers.matrix_init(syst)
     det=determinant.matrix_determinant(multiplier_matrix)
     x=0
