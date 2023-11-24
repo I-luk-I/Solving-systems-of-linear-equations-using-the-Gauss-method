@@ -1,4 +1,4 @@
-def matrix_init (linear_equation:str)->list:
+def matrix_init (linear_equation):
     matrix=[]
     transform=linear_equation.split(' ')
     unknown_x=[]
