@@ -38,7 +38,7 @@ def solution (syst):
         
         x = multiplier_matrix[0][2] - (multiplier_matrix[0][1] * y)
     
-    elif multiplier_matrix[0][1] * y<0:
+    elif multiplier_matrix[0][1] * y < 0:
         
         x = multiplier_matrix[0][2] + (-multiplier_matrix[0][1] * y)
     
