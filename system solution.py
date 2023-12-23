@@ -8,13 +8,13 @@ def solution (syst):
     
     det = determinant.matrix_determinant(multiplier_matrix)
     
-    x=0
+    x = 0
     
-    y=0
+    y = 0
     
     if det == 0:
         
-        return('The matrix of this system is singular')
+        return ('The matrix of this system is singular')
     
     if multiplier_matrix[0][0] != 1:
         
@@ -34,7 +34,7 @@ def solution (syst):
             
     y = multiplier_matrix[1][-1] / multiplier_matrix[1][1]
     
-    if multiplier_matrix[0][1] * y>0:
+    if multiplier_matrix[0][1] * y > 0:
         
         x = multiplier_matrix[0][2] - (multiplier_matrix[0][1] * y)
     
